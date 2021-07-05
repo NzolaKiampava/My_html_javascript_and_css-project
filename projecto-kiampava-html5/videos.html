@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<title>TUDO SOBRE MUNDO TECNOLÓGICO</title>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+	<link rel="stylesheet" type="text/css" href="_css/media.css"/>
+</head>
+<script language="javascript" src="_javaScript/funcoes.js"></script>
+
+	<script>
+		function mudaIcone(foto){
+			document.getElementById("icone").src=foto;
+		}
+		
+	</script>
+<body>
+	<div id="interface">
+		<header id="cabecalho">
+			<hgroup>
+				<h1>Tecnologia é o Futúro</h1>
+				<h2>A revolução de um novo mundo está chegando</h2>
+			</hgroup>
+
+			<img id="animacoes" src="_imagens/especificacoes-02.png"/>
+
+			<nav id="menu">
+				<h1>Menu principal</h1>
+				<ul>
+					<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/video.png')"><a href="index.html"> Home </a></li>
+					<li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/video.png')"><a href="fotos.html"> Fotos </a></li>
+					<li onmouseover="mudaFoto('_imagens/video.png')" onmouseout="mudaFoto('_imagens/video.png')"><a href="videos.html"> Vídeos </a></li>
+					<li onmouseover="mudaFoto('_imagens/jornal2.png')" onmouseout="mudaFoto('_imagens/video.png')"><a href="novidades.html"> Novidades </a></li>
+					<li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/video.png')"><a href="contato.html"> Contactos </a></li>
+					
+				</ul> 
+			</nav>
+
+			<img src="_imagens/tecnologia-tema.png"/>
+
+			<img id="icone" src="_imagens/Fortnite_KeyArt_1080p.0.jpg" onmousemove ="mudaIcone('_imagens/Hallowin.jpg')" onmouseout="mudaIcone('_imagens/Fortnite_KeyArt_1080p.0.jpg')"/>
+		</header>
+
+		<section id="conteudo">
+			<article id="noticia-principal">
+				<header id="cabecalho-artigo">
+					<hgroup>
+						<h3>Tecnologia > &nbsp;Vídeos</h3>
+						<h1>Sons e Vídeos</h1> 
+						<h2> por Nzola Kiampava</h2> 
+						<h3 class="direito">Feito aos 02/Setembro/2020</h3> 
+					</hgroup>
+				</header>
+			</article>
+		</section>
+		
+		<div>
+			<video id="filme" controls="controls" poster="_imagens/JAVA-poster.png">
+				<source src="_media/historia_do_java.mp4" type="video/mp4">
+			</video>
+			<h1 class="Tvid">História da Linguagem JAVA -<a href="www.cursoemvideo.com"> www.cursoemvideo.com </a><br/>- 1. Curso de Java #01 - História do Java - Gustavo Guanabara</h1>
+	
+			<video id="filme" controls="controls" poster="_imagens/internet-poster.png">
+				<source src="_media/historia_da_internet.mp4" type="video/mp4">
+			</video>
+			<h1 class="Tvid">História da INTERNET -<a href="www.cursoemvideo.com"> www.cursoemvideo.com </a><br/>-Curso de  HTML5 - 01 - História da Internet - by Gustavo Guanabara</h1>
+
+			<video id="filme" controls="controls" poster="_imagens/ai-poster.png">
+				<source src="_media/As_5_melhores-linguagens_de_programação-para_inteligência_artificial.mp4" type="video/mp4">
+			</video>
+			<h1 class="Tvid">As 5 melhores linguagens de <br/> programação para inteligência artificial - <a href="www.inteligenciaartificial.me">www.inteligenciaartificial.me</a></h1>
+		<div>
+		
+		<footer id="rodape">
+			<p>Made  by - Nzola António Kiampava<a href="//http:facebook.com/Nzola António Kiampava" target="_blank"><br/>Facebook</a>  | <a href="//http:Twitter.com/nzolaKiampava" target="_blank"> Twitter</a> </p>
+		</footer>
+	</div>
+</body>
+</html>

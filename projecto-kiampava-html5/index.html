@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<title>TUDO SOBRE MUNDO TECNOLÓGICO</title>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+</head>
+<script language="javascript" src="_javaScript/funcoes.js"></script>
+
+	<script>
+		function mudaIcone(foto){
+			document.getElementById("icone").src=foto;
+		}
+		
+	</script>
+<body>
+	<div id="interface">
+		<header id="cabecalho">
+
+			<hgroup>
+				<h1>Tecnologia é o Futúro</h1>
+				<h2>A revolução de um novo mundo está chegando</h2>
+			</hgroup>
+
+			<img id="animacoes" src="_imagens/especificacoes-02.png"/>
+
+			<nav id="menu">
+				<h1>Menu principal</h1>
+				<ul>
+					<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/especificacoes-02.png')"><a href="index.html"> Home </a></li>
+					<li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/especificacoes-02.png')"><a href="fotos.html"> Fotos </a></li>
+					<li onmouseover="mudaFoto('_imagens/video.png')" onmouseout="mudaFoto('_imagens/especificacoes-02.png')"><a href="videos.html"> Vídeos </a></li>
+					<li onmouseover="mudaFoto('_imagens/jornal2.png')" onmouseout="mudaFoto('_imagens/especificacoes-02.png')"><a href="novidades.html"> Novidades </a></li>
+					<li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/especificacoes-02.png')"><a href="contato.html"> Contactos </a></li>
+					
+				</ul> 
+			</nav>
+
+			<img src="_imagens/tecnologia-tema.png"/>
+
+			<img id="icone" src="_imagens/tecno-wallpaper-de-tecnologia-1.jpg" onmousemove ="mudaIcone('_imagens/city-best2.png')" onmouseout="mudaIcone('_imagens/tecno-wallpaper-de-tecnologia-1.jpg')"/>
+
+
+		</header>
+		<section id="corpo">
+		<article id="noticia-principal">
+			<header id="cabecalho-artigo">
+				<hgroup>
+					<h3>Tecnologia > &nbsp;Inovações</h3>
+					<h1> Saiba tudo sobre o MUNDO TECNOLÓGICO</h1> 
+					<h2> por Nzola Kiampava</h2> 
+					<h3 class="direito">Feito aos 29/Agosto/2020</h3> 
+				</hgroup>
+			</header>
+			<h2> O que é</h2>
+				<p> O <span style="font-weight: 800"> MUNDO TECNOLÓGICO </span>náo é nada menos do que o mundo que nós vivemos, mas este mundo está embuido de tecnologia de alta qualidade que assegura o homem nos seus diversos trabalhos. O Mundo Tecnológico é um mundo futuro que possui um nível de vida bastante eficáz e segura para todos, e afastado de diversos perigos.</p>
+
+			<h2>Quem são os construtores</h2>
+				<p> Segundo os académicos o <em>mundo tecnológico</em> será des&shy;envol&shy;vida por engenheiros e cien&shy;tis&shy;tas, isto desde os programadores(que estão principalmente nessa luta), informáticos, técnicos de IT, engenheiros electrónicos, electromecânicos, e entre outros ciêntistas e engenheiros que estão envolvido na arquitectura deste mundo.</p>
+			<figure class="foto-legenda"> 
+				<img src="_imagens/images (13).jpg"/>
+				<figcaption>
+					<h3>Think Different</h3>
+					<p>Deixa que a tecnologia te leve numa melhor maneira de viver.</p>
+				</figcaption>
+			</figure>
+
+			<h2>Como será o modo de vida</h2>
+				<p>Bem, o modo de vida não será diferente da actual, mas será de alta con&shy;fia&shy;bil&shy;idade. Alguns dizem que o <em>mundo tecnológico</em>  será um mundo onde todos estarão ligados e próximos graças aos aprelhos de altas qualidades que ajudam no suporte de vida comunitária. Um mundo afastado de perigos e seguro para todos.</p>
+
+			<h2>Como é que as pessoas viverão</h2>
+				<p>Veja esse vídeo de divulgação de uma das novidades das actuais cidades de inovação, não só de tecnologia mais de diversão(apenas para indicar como é fantástico) onde mostra que você pode se divertir num lugar inacreditável. Veja e aprecie!</p>
+
+			<div>
+				<video id="filme" controls="controls" poster="_imagens/poster-tecno.png"/>
+					<source src="_media/video-piscina.mp4" type="video/mp4"/>
+					DESCULPE MAS NÃO FOI POSSÍVEL CARREGAR.
+				</video>
+			</div>
+		
+		</section>
+
+			
+		<aside id="lateral">
+			<h1>Outras Notícias</h1> 
+			<h2> Vídeo mais recente</h2> 
+
+			<div>
+				<video id="filme02" controls="controls"  poster="_imagens/poster-tecno02.png">
+					<source src="_media/video-cidades.mp4" type="video/mp4">
+					DESCULPE MAS NÃO FOI POSSÍVEL CARREGAR.
+				</video>
+			</div>
+
+			<h2>Novidades na Tecnologia</h2>
+				<p>Tudo isso partirá da evolução da 5º geração dos computadores que funcionarão como uma verdadeira máquina mais do que ela já é, isto é os computadores terão uma grande interatividades com seres humanos(reconhecerão vozes do usuário, e diversas outras novidades que você não imagina),até por um simples óculos, tudo isso graças a Intel&shy;igên&shy;cia Artificial ou AI.</p>
+		</aside>
+		</article>
+		<footer id="rodape">
+			<p>Made  by - Nzola António Kiampava<a href="//http:facebook.com/Nzola António Kiampava" target="_blank"><br/>Facebook</a>  | <a href="//http:Twitter.com/nzolaKiampava" target="_blank"> Twitter</a> </p>
+		</footer>
+	</div>
+</body>
+</html>
